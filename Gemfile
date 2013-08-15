@@ -6,7 +6,6 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
 gem 'aws-sdk'
-gem "twitter-bootstrap-rails"
 
 group :production do
 	gem 'pg'
