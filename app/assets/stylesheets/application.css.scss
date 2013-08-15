@@ -9,17 +9,7 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require bootstrap_and_overrides
  *= require_tree .
  */
 
-
-@import "bootstrap";
-
-@import "bootstrap-responsive";
-
-$navbarBackgroundHighlight: #000;
-$navbarBackground: #000;
-$navbarBrandColor: #fff;
-$navbarLinkColor: #fff;
-$navbarLinkColorHover: #abd1f7;
-$baseBorderRadius: 0;
